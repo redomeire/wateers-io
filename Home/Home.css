@@ -201,7 +201,7 @@ nav {
 }
 
 .sponsorship {
-    padding: 30px;
+    padding: 150px 30px 150px 30px;
 }
 
 .sponsorships {
@@ -295,6 +295,16 @@ footer {
 
 .sectionsDiv a li {
     margin-bottom: 10px;
+}
+
+.footer-divider {
+    margin-top: 50px;
+    color: rgba(255, 255, 255, 0.47);
+}
+
+.copyright-content {
+    color: white;
+    font-family: 'Roboto Flex';
 }
 
 @media screen and (max-device-width: 720px) {
