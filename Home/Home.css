@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    transition: ease 0.3s;
+    z-index: 2;
+}
+
+.nav-items ul {
+    display: flex;
+}
+
+.nav-items ul li {
+    list-style-type: none;
+}
+
+.nav-items ul li a {
+    text-decoration: none;
+    margin: 10px;
+    font-family: 'Inter';
+}
+
+.slide {
+    transform: translateX(0) !important;
+}
+
+.hamburger {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 10px;
+    top: 25px;
+}
+
+.hamburger div {
+    margin: 5px;
+    background-color: white;
+    width: 18px;
+    height: 2px;
+    border-radius: 5px;
+    display: none;
+}
+
+.jumbotron {
+    display: flex;
+}
+
+.jumbotron-content {
+    margin-top: 50px;
+    padding: 30px;
+    width: 50%;
+}
+
+.jumbotron-content p {
+    font-size: 17px;
+}
+
+.jumbotron-content h1 {
+    font-family: 'Noto Serif';
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.button-primary {
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #1687A7;
+    color: white;
+    border: none;
+    width: 40%;
+    cursor: pointer;
+}
+
+.jumbotron-image {
+    width: 50%;
+    height: 100vh;
+    background-image: url(../Assets/beach-image.jpg);
+    background-size: cover;
+}
+
+.content-paragraph {
+    font-family: 'Roboto Flex';
+    font-size: 17px;
+    line-height: 30px;
+    color: #1687A7;
+}
+
+.content {
+    padding: 80px 30px 80px 30px;
+}
+
+.content1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.content2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.content-content {
+    width: 50%;
+}
+
+.content-label {
+    font-family: 'Inter';
+    color: #1687A7;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.content-title {
+    font-family: 'Inter';
+    font-size: 40px;
+}
+
+.content-image {
+    width: 40%;
+}
+
+.contact {
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    font-family: 'Roboto Flex';
+}
+
+.contact-content {
+    width: 40%;
+}
+
+.contact-box {
+    border: 1.4px solid #1687A7;
+    border-radius: 5px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 20px 20px 20px 0;
+}
+
+.contact-box-img {
+    width: 40px;
+    margin-right: 40px;
+}
+
+.contact-form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-lable {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #7E7E7E;
+    font-size: 18px;
+}
+
+.form-input {
+    height: 30px;
+    border: 1.5px solid #1687A7;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: transparent;
+    outline: none;
+}
+
+.form-textarea {
+    height: 80px;
+    border: 1.5px solid #1687A7;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: transparent;
+    resize: vertical;
+    outline: none;
+}
+
+.sponsorship {
+    padding: 30px;
+}
+
+.sponsorships {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sponsorship h1 {
+    text-align: center;
+    font-family: 'Noto Serif';
+}
+
+.sponsorship-item {
+    background-color: #E3F2F6;
+    padding: 20px;
+    width: 200px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    padding: 30px;
+}
+
+.contentDiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutDiv {
+    width: 30%;
+}
+
+.footer-title {
+    font-family: 'Noto Serif';
+    font-size: 40px;
+    color: white;
+}
+
+.footer-subtitle {
+    font-family: 'Roboto Flex';
+    font-size: 17px;
+    line-height: 30px;
+    color: white;
+    opacity: 0.5;
+}
+
+.sectionsDiv {
+    width: 30%;
+    margin-left: 80px;
+}
+
+.subscribeDiv {
+    width: 30%;
+}
+
+/*utility class*/
+.background-light {
+    background-color: #E2FBFC;
+}
+
+.background-dark {
+    background-color: #1687A7;
+}
+/*end of utility class*/
+
+.footer-form {
+    display: flex;
+}
+
+.subscribe-button {
+    background-color: #145567;
+    border: none;
+    padding: 5px;
+}
+
+
+.sectionsDiv a {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    opacity: 0.5;
+    font-family: 'Roboto Flex';
+    font-size: 17px;
+}
+
+.sectionsDiv a li {
+    margin-bottom: 10px;
+}
+
+@media screen and (max-device-width: 720px) {
+    .hamburger div {
+        display: block;
+    }
+
+    .nav-items {
+        transform: translateX(700px);
+        transition: ease 0.3s;
+        position: absolute;
+        right: 0;
+        top: 0;
+        background-color: #1687A7;
+    }
+
+    .nav-items ul {
+        flex-direction: column;
+        padding-top: 50px;
+    }
+
+    .nav-items ul li {
+        margin: 30px;
+    }
+
+    .jumbotron-content {
+        padding-top: 30px;
+        width: 100%;
+        background-image: url(../Assets/beach-image.jpg);
+        background-size: cover;
+        margin-top: 0;
+    }
+
+    .jumbotron-content h1 {
+        font-family: 'Noto Serif';
+        font-size: 50px;
+    }
+
+    .jumbotron-image {
+        display: none;
+    }
+
+    .content1 {
+        flex-direction: column;
+    }
+
+    .content2 {
+        flex-direction: column-reverse;
+    }
+
+    .content-content {
+        width: 100%;
+    }
+
+    .content-image {
+        width: 100%;
+    }
+
+    .contact {
+        flex-direction: column;
+    }
+
+    .contact-box {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .contact-content {
+        width: 100%;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+
+    .aboutDiv {
+        width: 100%;
+    }
+
+    .contentDiv {
+     flex-direction: column;
+    }
+
+    .sectionsDiv {
+        margin-left: unset;
+        width: 100%;
+    }
+    
+    .subscribeDiv {
+        width: 100%;
+    }
+}
