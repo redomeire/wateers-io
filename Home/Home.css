@@ -283,6 +283,15 @@ footer {
     padding: 5px;
 }
 
+.subscribe-input {
+    outline: none;
+    border: none;
+}
+
+.subscribe-input:focus {
+    outline: 2px solid #6a9ba8;
+}
+
 
 .sectionsDiv a {
     list-style-type: none;

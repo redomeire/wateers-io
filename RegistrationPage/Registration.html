@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Registration.css">
+</head>
+
+<body>
+    <!--navbar-->
+    <nav class="navbar">
+        <div class="nav-logo">
+            <a href="#">
+                <img src="../Assets/nav-logo-img-removebg-preview.png" width="100">
+            </a>
+        </div>
+        <div class="nav-items">
+            <ul>
+                <li><a href="#" class="nav-link">Home</a></li>
+                <li><a href="#sponsorship" class="nav-link">Sponsorship</a></li>
+                <li><a href="../RegistrationPage/Registration.html" class="nav-link">Volunteer</a></li>
+            </ul>
+        </div>
+        <button class="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </button>
+    </nav>
+    <!--jumbotron-->
+    <section class="jumbotron">
+        <div class="jumbotron-content">
+            <h6 class="content-lable">Content Lable</h6>
+            <h1 class="content-title">Let's be a part of us</h1>
+            <p class="content-paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores similique
+                iusto aperiam pariatur velit
+                aut sed facere culpa modi ipsum.</p>
+            <img src="../Assets/beach_image.png" width="70%">
+        </div>
+        <div class="jumbotron-form">
+            <form name="submit-to-google-sheet">
+                <label for="name" class="form-lable">Nama Lengkap</label>
+                <input type="text" class="form-input" id="nama" name="nama" placeholder="eg. Erwin Marbinoto">
+                <label for="email" class="form-lable">Email</label>
+                <input type="email" name="email" id="email" class="form-input" placeholder="eg. erwintampan@gmail.com">
+                <label for="address" class="form-lable">Alamat Lengkap</label>
+                <input type="text" name="address" id="address" class="form-input" placeholder="eg. jalan sejuta umat no. 12">
+                <div class="phone-and-solution">
+                    <div class="form-phone">
+                        <label for="phone" class="form-lable">Nomor Telepon</label>
+                        <input type="text" class="form-input" id="phone" name="phone" placeholder="eg. 081330412121">
+                    </div>
+                    <div class="form-solution">
+                        <label for="solution" class="form-lable">Pilihan Solusi</label>
+                        <select name="solution" id="solution" class="form-select">
+                            <option value="Membersihkan Limbah">Membersihkan Limbah</option>
+                            <option value="Menjaga Terumbu Karang">Menjaga terumbu karang</option>
+                            <option value="Menanam Bakau">Tanam Bakau</option>
+                            <option value="Budidaya Penyu">Budidaya Penyu</option>
+                        </select>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!--footer-->
+    <footer class="background-dark">
+        <div class="contentDiv">
+            <div class="aboutDiv">
+                <h1 class="footer-title">Wateers.io</h1>
+                <p class="footer-subtitle">Wateers.io adalah sebuah platform yang menyediakan fasilitas volunteering
+                    bagi para pecinta ekosistem laut di luar sana. Kami menyediakan 4 program. Di antaranya adalah
+                    pembersihan limbah, penanaman terumbu karang, menanam tanaman bakau, dan budidaya penyu</p>
+            </div>
+            <div class="sectionsDiv">
+                <h1 class="footer-title">Sections</h1>
+                <a href="#">
+                    <li>Home</li>
+                </a>
+                <a href="#">
+                    <li>Sponsorship</li>
+                </a>
+                <a href="#">
+                    <li>Volunteering Register</li>
+                </a>
+            </div>
+            <div class="subscribeDiv">
+                <h1 class="footer-title">Subscribe</h1>
+                <p class="footer-subtitle">Subscribe to our newsletter to get latest info</p>
+                <div class="subscribeDiv-email">
+                    <form action="" name="email-subscription" class="footer-form">
+                        <input type="email" placeholder="email goes here" class="subscribe-input">
+                        <button type="submit" class="subscribe-button">
+                            <img src="../Assets/logo_send.png" alt="send" width="30">
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyrightDiv">
+            <hr class="footer-divider">
+            <div class="copyright-content">
+                <p>copyright &copy; 2022</p>
+                <p>Wateers.io, All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+    <script src="./Registration.js"></script>
+</body>
+
+</html>
