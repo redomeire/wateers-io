@@ -112,6 +112,7 @@ nav {
     margin-bottom: 20px;
     color: #7E7E7E;
     font-size: 18px;
+    font-family: 'Roboto Flex';
 }
 
 .phone-and-solution {
@@ -147,6 +148,16 @@ nav {
     display: flex;
     flex-direction: column;
     width: 45%;
+}
+
+.button-primary {
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #1687A7;
+    color: white;
+    border: none;
+    width: 100%;
+    cursor: pointer;
 }
 
 footer {

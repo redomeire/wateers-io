@@ -43,19 +43,19 @@
         <div class="jumbotron-form">
             <form name="submit-to-google-sheet">
                 <label for="name" class="form-lable">Nama Lengkap</label>
-                <input type="text" class="form-input" id="nama" name="nama" placeholder="eg. Erwin Marbinoto">
+                <input type="text" class="form-input" id="nama" name="nama" placeholder="eg. Erwin Marbinoto" required>
                 <label for="email" class="form-lable">Email</label>
-                <input type="email" name="email" id="email" class="form-input" placeholder="eg. erwintampan@gmail.com">
+                <input type="email" name="email" id="email" class="form-input" placeholder="eg. erwintampan@gmail.com" required>
                 <label for="address" class="form-lable">Alamat Lengkap</label>
-                <input type="text" name="address" id="address" class="form-input" placeholder="eg. jalan sejuta umat no. 12">
+                <input type="text" name="alamat" id="alamat" class="form-input" placeholder="eg. jalan sejuta umat no. 12" required>
                 <div class="phone-and-solution">
                     <div class="form-phone">
                         <label for="phone" class="form-lable">Nomor Telepon</label>
-                        <input type="text" class="form-input" id="phone" name="phone" placeholder="eg. 081330412121">
+                        <input type="text" class="form-input" id="nomor_telepon" name="nomor_telepon" placeholder="eg. 081330412121" required>
                     </div>
                     <div class="form-solution">
                         <label for="solution" class="form-lable">Pilihan Solusi</label>
-                        <select name="solution" id="solution" class="form-select">
+                        <select name="pilihan_solusi" id="pilihan_solusi" class="form-select" required>
                             <option value="Membersihkan Limbah">Membersihkan Limbah</option>
                             <option value="Menjaga Terumbu Karang">Menjaga terumbu karang</option>
                             <option value="Menanam Bakau">Tanam Bakau</option>
@@ -63,6 +63,7 @@
                         </select>
                     </div>
                 </div>
+                <button type="submit" class="button-primary" style="margin-top: 30px;">Submit</button>
             </form>
         </div>
     </section>
@@ -108,6 +109,8 @@
             </div>
         </div>
     </footer>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
     <script src="./Registration.js"></script>
 </body>
 
