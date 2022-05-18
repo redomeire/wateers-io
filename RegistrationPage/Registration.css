@@ -150,6 +150,11 @@ nav {
     width: 45%;
 }
 
+.form-span {
+    color: red;
+    font-size: 14px;
+}
+
 .button-primary {
     border-radius: 5px;
     padding: 10px;

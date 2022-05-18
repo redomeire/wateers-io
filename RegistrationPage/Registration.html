@@ -13,7 +13,7 @@
     <!--navbar-->
     <nav class="navbar">
         <div class="nav-logo">
-            <a href="#">
+            <a href="../index.html">
                 <img src="../Assets/nav-logo-img-removebg-preview.png" width="100">
             </a>
         </div>
@@ -42,20 +42,21 @@
         </div>
         <div class="jumbotron-form">
             <form name="submit-to-google-sheet">
-                <label for="name" class="form-lable">Nama Lengkap</label>
+                <label for="name" class="form-lable">Nama Lengkap <span class="form-span">*</span></label>
                 <input type="text" class="form-input" id="nama" name="nama" placeholder="eg. Erwin Marbinoto" required>
-                <label for="email" class="form-lable">Email</label>
+                <label for="email" class="form-lable">Email  <span class="form-span">*</span></label>
                 <input type="email" name="email" id="email" class="form-input" placeholder="eg. erwintampan@gmail.com" required>
-                <label for="address" class="form-lable">Alamat Lengkap</label>
+                <label for="address" class="form-lable">Alamat Lengkap  <span class="form-span">*</span></label>
                 <input type="text" name="alamat" id="alamat" class="form-input" placeholder="eg. jalan sejuta umat no. 12" required>
                 <div class="phone-and-solution">
                     <div class="form-phone">
-                        <label for="phone" class="form-lable">Telepon</label>
+                        <label for="phone" class="form-lable">Telepon  <span class="form-span">*</span></label>
                         <input type="text" class="form-input" id="nomor_telepon" name="nomor_telepon" placeholder="eg. 081330412121" required>
                     </div>
                     <div class="form-solution">
-                        <label for="solution" class="form-lable">Pilihan Solusi</label>
+                        <label for="solution" class="form-lable">Pilihan Solusi  <span class="form-span">*</span></label>
                         <select name="pilihan_solusi" id="pilihan_solusi" class="form-select" required>
+                            <option disabled selected value> -- select an option -- </option>
                             <option value="Membersihkan Limbah">Membersihkan Limbah</option>
                             <option value="Menjaga Terumbu Karang">Menjaga terumbu karang</option>
                             <option value="Menanam Bakau">Tanam Bakau</option>
@@ -78,14 +79,11 @@
             </div>
             <div class="sectionsDiv">
                 <h1 class="footer-title">Sections</h1>
-                <a href="#">
+                <a href="../index.html">
                     <li>Home</li>
                 </a>
-                <a href="#">
+                <a href="../index.html#sponsorship">
                     <li>Sponsorship</li>
-                </a>
-                <a href="#">
-                    <li>Volunteering Register</li>
                 </a>
             </div>
             <div class="subscribeDiv">

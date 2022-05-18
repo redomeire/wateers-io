@@ -188,6 +188,7 @@ nav {
     padding: 10px;
     background-color: transparent;
     outline: none;
+    font-family: 'Roboto Flex';
 }
 
 .form-textarea {
@@ -198,6 +199,7 @@ nav {
     background-color: transparent;
     resize: vertical;
     outline: none;
+    font-family: 'Roboto Flex';
 }
 
 .sponsorship {
