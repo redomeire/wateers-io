@@ -70,6 +70,7 @@ nav {
 }
 
 .jumbotron-content p {
+    margin-top: -45px;
     font-size: 17px;
 }
 
@@ -80,6 +81,7 @@ nav {
 }
 
 .button-primary {
+    margin-top: 20px;
     border-radius: 5px;
     padding: 10px;
     background-color: #1687A7;
@@ -132,7 +134,7 @@ nav {
 }
 
 .content-title {
-    font-family: 'Inter';
+    font-family: 'Noto Serif';
     font-size: 40px;
 }
 
@@ -302,6 +304,11 @@ footer {
     opacity: 0.5;
     font-family: 'Roboto Flex';
     font-size: 17px;
+    transition: ease 0.3s;
+}
+
+.sectionsDiv a:hover {
+    opacity: 1;
 }
 
 .sectionsDiv a li {
@@ -352,6 +359,7 @@ footer {
     .jumbotron-content h1 {
         font-family: 'Noto Serif';
         font-size: 50px;
+        margin-top: 90px;
     }
 
     .jumbotron-image {
