@@ -194,6 +194,14 @@ footer {
     margin-left: 80px;
 }
 
+.sectionsDiv a {
+    transition: ease 0.3s;
+}
+
+.sectionsDiv a:hover {
+    opacity: 1;
+}
+
 .subscribeDiv {
     width: 30%;
 }
