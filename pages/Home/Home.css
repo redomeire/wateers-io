@@ -290,6 +290,10 @@ footer {
         margin-top: 90px;
     }
 
+    .jumbotron-content p {
+        margin-top: unset;
+    }
+
     .jumbotron-image {
         display: none;
     }
