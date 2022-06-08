@@ -23,10 +23,10 @@ const fetchingData = () => {
     emailjs.send('service_b1jo2ig', 'template_uwih5iy', template_params)
     .then(function(response) {
         console.log('SUCCESS!', response.status, response.text);
-        alert('Success sending email!!');
+        createCustomDialog("Notification", "Kritik dan saran sudah diterima dengan baik. Terima kasih!!", "./Assets/circle-check-fill.png", "rgb(22, 135, 167)");
      }, function(error) {
         console.log('FAILED...', error);
-        alert("Sending email failed!");
+        createCustomDialog("Notification", "Terdapat kesalahan. Coba lagi nanti", "./Assets/circle-cross-fill.png", "#E70000");
      });
 }
 

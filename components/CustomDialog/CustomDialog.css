@@ -1,0 +1,54 @@
+.custom-dialog-container {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.tittleDiv {
+    display: flex;
+    align-items: center;
+}
+
+.tittleDiv img {
+    padding: 20px;
+}
+
+.dialogBox {
+    border-radius: 25px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: white;
+}
+
+.dialogTitle {
+    font-family: 'Roboto Flex';
+    font-weight: bold;
+    font-size: 24px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.dialogBody {
+    font-family: 'Roboto Flex';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 30px;
+    color: #5e5e5e;
+    opacity: 0.5;
+    padding: 10px 30px 25px 30px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.dialogCloseButton {
+    border-radius: 0 0 25px 25px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: none;
+    width: 100%;
+    font-weight: bold;
+    cursor: pointer;
+}

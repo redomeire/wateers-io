@@ -19,10 +19,10 @@ const fetchingData = () => {
         body: new FormData(document.forms['submit-to-google-sheet'])
     })
     .then(res => {
-        alert('form sent')
+        createCustomDialog("Notification", "Data anda sudah kami terima. Terima kasih!!", "./Assets/circle-check-fill.png", "rgb(22, 135, 167)");
         console.log("success! ", res);
     })
     .catch(err => {
-        alert('error : ', err.message);
+        createCustomDialog("Notification", "Terdapat kesalahan. Coba lagi nanti", "../../Assets/circle-cross-fill.png", "#E70000");
     })
 }

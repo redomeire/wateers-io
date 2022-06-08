@@ -19,9 +19,9 @@ const fetchingDataFooter = () => {
     emailjs.send('service_b1jo2ig', 'template_rxz09ls', template_params)
     .then(function(response) {
         console.log('SUCCESS!', response.status, response.text);
-        alert('Success sending email!!');
+        createCustomDialog("Notification", "Kami sudah mengirimi anda email. Terima kasih", "./Assets/circle-check-fill.png", "rgb(22, 135, 167)");
      }, function(error) {
         console.log('FAILED...', error);
-        alert("Sending email failed!");
+        createCustomDialog("Notification", "Terdapat kesalahan. Coba lagi nanti", "./Assets/circle-cross-fill.png", "#E70000");
      });
 }
